@@ -1,6 +1,7 @@
 # LyX dark theme icons
 
 I was searching for dark theme icons to use for LyX. At first I used the suggestion in https://wiki.lyx.org/LyX/Icons and run the command to get a icon theme suitable for the dark theme:
+
 sudo find /usr/share/lyx/images/ -type f -exec convert {} -negate {} ;
 
 This solution works only partially. The "Classic" icon set can be changed to a usable dark theme icon set. But it turns out that under /usr/share/lyx/images/math/, the icons are now in *.svgz format and cannot be changed with the command above. I eventually gained enough knowledge of how to change the colors of the icon set and saved the icon sets.
