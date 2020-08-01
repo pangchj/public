@@ -45,5 +45,5 @@ gunzip -S z scri*.svgz
 $dir_of_lyx_dt_sh/aa_subroutine.sh scri*.svg
 gzip -S z scri*.svg
 
-echo "Finished coloring images in ../images/ipa/ subfolder"
+echo "Finished coloring valid images in ../images/ subfolder"
 
