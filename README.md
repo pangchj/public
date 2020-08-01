@@ -10,6 +10,8 @@ This solution works only partially. The "Classic" icon set can be changed to a u
 
 **To use a script file to change the images suitable for a dark theme (In Linux):** Download the files aa_change.sh and aa_subroutine.sh into the same folder. Make the scripts executable in Linux with "chmod +x aa_change.sh" and "chmod +x aa_subroutine.sh". Then run "sudo aa_change.sh".
 
+Make sure that you use the "Classic" icon set in LyX, since only this icon set is inverted.
+
 **To use the images compressed in the zip file (which I hope works for Windows):** Download the file lyx_images.zip. In Ubuntu, replace the folder /usr/share/lyx/images/ ; In another operating system, the image file directory can be found in LyX with Help > About LyX. 
 
 -pangchj
