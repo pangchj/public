@@ -8,10 +8,8 @@ This solution works only partially. The "Classic" icon set can be changed to a u
 
 **To see what the icon set looks like**: See the file LyX_dark_theme.jpg in this directory.
 
-**To use**: Download the file lyx_images.zip. In Ubuntu, replace the folder /usr/share/lyx/images/ ; In another operating system, the image file directory can be found in LyX with Help > About LyX. 
+**To use a script file to change the images suitable for a dark theme (In Linux):** Download the files aa_change.sh and aa_subroutine.sh into the same folder. Make the scripts executable in Linux with "chmod +x aa_change.sh" and "chmod +x aa_subroutine.sh". Then run "sudo aa_change.sh".
 
-**To do your own amendments**: I have included the shell script I ran in Linux to get the icons from the default icon sets. In the folder ./images/math/, I need to do two 'sed' commands. In the folder ./images/ipa/, I needed to do three 'sed' commands. The command I needed to run was aa_change.sh. (See also aa_change2.sh).
-
-I made these admendments in 29 July 2020. 
+**To use the images compressed in the zip file (which I hope works for Windows):** Download the file lyx_images.zip. In Ubuntu, replace the folder /usr/share/lyx/images/ ; In another operating system, the image file directory can be found in LyX with Help > About LyX. 
 
 -pangchj
