@@ -18,4 +18,6 @@ https://github.com/pangchj/public/blob/Images/lyx_images.zip
 
 In Ubuntu, replace the folder /usr/share/lyx/images/ ; In another operating system, the image file directory can be found in LyX with Help > About LyX. 
 
+**Note:** I shall only be updating the scripts. I will only update the images infrequently. 
+
 -pangchj
