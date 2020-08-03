@@ -78,6 +78,8 @@ gzip -S z dialog\-show_ma*.svg
 # Invert colors for icons related to tables
 # (The SVGZ files can be scaled well. The PNG files cannot.)
 # (Also, the classic icon set does not include some icons.)
+# NOTE: The color scheme was designed so that the colors for the icons tabular\-feature_move*.svg can be inverted properly. 
+#       I changed to *.svg later so that the other icons are partially inverted, with mixed results.
 gunzip -S z *.svgz
 $dir_of_lyx_dt_sh/aa_subroutine.sh "s/#dae3ea/#251c15/g; s/#e9eef2/#16110d/g; s/#a5bbd3/#5a442c/g; s/#ffffff/#000000/g; s/#023372/#fdcc8d/g; s/#16477c/#e9b883/g; s/#d6e9f8/#291607/g; s/#c1ddf5/#3e220a/g; s/#84abf4/#7b540b/g; s/#6e757b/#918a84/g; s/#84abf4/#7b540b/g; s/#99a2a9/#665d56/g; s/#1a4f8b/#e5b074/g; s/#8db1cc/#724e33/g" *.svg
 gzip -S z *.svg 
