@@ -12,7 +12,7 @@ This solution works only partially. The "Classic" icon set can be changed to a u
 - Download the files aa_change.sh and aa_subroutine.sh into the same folder. 
 - Make the scripts executable in Linux with "chmod +x aa_change.sh aa_subroutine.sh". 
 - Read "aa_change.sh" and see that the conditions are satisfied. You can also edit variables there before running. 
-- Run "sudo aa_change.sh".
+- Run "sudo ./aa_change.sh" from the folder.
 - Use the "Classic" icon set in LyX.
 
 **To use the images compressed in the zip file (which I hope works for Windows):** Download the file 
